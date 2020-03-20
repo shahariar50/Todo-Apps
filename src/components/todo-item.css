@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url("./dust_scratches.png");
+}
+
+/* Todo Body */
+.todo {
+  width: 900px;
+  max-width: 900px;
+  background-color: #fff;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.todo__header {
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+}
+.todo__item_header svg {
+  float: right;
+  margin-right: 16px;
+}
+.todo__item_header,
+.todo__item_header:hover,
+.todo__item_header:focus {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background-color: #007fff;
+  color: #fff;
+  border-bottom: 1px solid;
+  text-decoration: none;
+  text-align: left;
+  padding: 0.5em;
+  padding-left: 16px;
+  outline: none;
+}
+.accordion > .card {
+  border-radius: none;
+}
+
+/* Add todo form */
+.todo__add input,
+.todo__add textarea {
+  width: 100%;
+  padding: 0.5em;
+  padding-left: 20px;
+  border: none;
+  border-bottom: 1px solid #c2c2c2;
+  outline: none;
+}
+.opacity65 {
+  opacity: 0.65;
+}
